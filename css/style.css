@@ -148,6 +148,7 @@ span {
     align-items: center;
     padding: 20px 20px 0px 20px;
     flex-wrap: wrap;
+    
 
 
 }
@@ -292,7 +293,7 @@ footer {
     display: flex;
     padding: 64px 104px 25px 104px;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -311,10 +312,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0px 0px 28px 0px;
+    padding: 28px 0px 28px 0px;
     color: #C2D0DD;
     flex-wrap: wrap;
     align-content: center;
+    margin: 0%  20% 0% 20%;
 }
 
 .footer-down a {
@@ -329,10 +331,12 @@ footer {
     width: 25%;
 }
 
- .burger{
+.burger{
         display: none;
     }
-
+.footer-down{
+    border-top: 1px solid #C2D0DD ;
+}
 
 @media (max-width:542px) {
     .nav-menu {
@@ -442,4 +446,11 @@ footer {
         background-color: transparent;
         border: none;
     }
+}
+
+
+.page-header{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 100px;
 }
